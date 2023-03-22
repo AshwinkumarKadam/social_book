@@ -1,0 +1,3 @@
+#IMP topics for django development
+
+1.see URL dispatcher or URL pattern inside application in django lecture 

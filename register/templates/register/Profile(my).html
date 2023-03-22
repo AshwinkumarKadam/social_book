@@ -1,0 +1,32 @@
+{% extends "register/base.html" %}
+{% load static %}
+{% block content %}
+
+<div class="main-container">
+    <table class="Table">
+        <thead>
+            <tr>
+                <th scope="col">Fullname</th>
+                <th scope="col">Gender</th>
+                <th scope="col">Visiblity</th>
+                <th scope="col">Email</th>
+                <th scope="col">City</th>
+                <th scope="col">State</th>
+
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                {{show_all.fullname}}
+                {{show_all.gender}}
+                {{show_all.visiblity}}
+                {{show_all.email}}
+                {{show_all.city}}
+                {{show_all.state}}
+            </tr>
+        </tbody>
+
+    </table>
+</div>
+{% endblock %}
